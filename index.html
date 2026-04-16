@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLAMPUR CAMPING</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="./assets/favicon/favicon-96x96.png" sizes="96x96" >
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon/favicon.svg" >
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" >
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" >
+    <meta name="apple-mobile-web-app-title" content="GC" >
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" >
+</head>
+<body>
+    <header>
+        <h1 class="logo">
+            <a href="index.html">
+                <img src="./assets/images/montana.png" alt="GC.COM - Camping de lujo">
+            </a>
+            <span class="texto seo" ><a href="index.html">GLAMPUR CAMPING</a></span>
+        </h1>
+
+        <nav class="barNav">
+            <input type="checkbox" id="check-menu" class="check-menu">
+
+            <ul class="barNav-links">
+                <li><a href="#" class="enlaceActivo bordeSuperior">Inicio</a></li>
+                <li><a href="views/galeria.html" class="enlace">Galeria</a></li>
+                <li><a href="views/presupuesto.html" class="enlace">Presupuesto</a></li>
+                <li><a href="views/contacto.html" class="enlace bordeInferior">Contacto</a></li>
+                
+            </ul>
+            <label for="check-menu" class="label-check">
+                <img src="./assets/menu-hamburguesa/menu-svgrepo-com.svg" alt="imagen menú hamburguesa" height="60" width="60">
+            </label>
+        </nav>
+    </header>
+    <main>
+        <!-- Sección 1: Tarjeta de bienvenida -->
+        <section id="hero" class="presentacion">
+            <div class="tarjeta-bienvenida">
+                <h2>¡BIENVENIDOS!</h2>
+                
+            </div>    
+        </section>
+        <!--Sección 2: Elección de camping-->
+        <div class="division">
+            <h2 class="titulo-seccion">ENCUENTRA TU ESTANCIA PERFECTA CON NOSOTROS</h2>
+            <div  class="division-interna">
+                <div class="div-int-1" data-carousel="1">
+                    <img src="assets/images/div-int-1/bungalo1.jpg" alt="Imagen exterior de bungalow premium" width="1200" height="700">
+                    <div class="overlay-text">¿Prefieres la comodidad de un bungalow?
+                        <button id="div-int" class="btn-saber-mas">Saber más</button>
+                    </div>
+                </div>
+                <div class="div-int-1" data-carousel="2">
+                    <img src="assets/images/div-int-1/furgoneta.png" alt="Imagen exterior de furgoneta camper" width="1000" height="526">
+                    <div class="overlay-text">¿Prefieres la aventura con una furgoneta personal?
+                        <button id="div-int-2" class="btn-saber-mas" >Saber más</button>
+                    </div>
+                </div>
+            </div>
+        </div>     
+        <!-- Sección 3: Contenedor con cinco cajas internas -->
+        <section class="servicios-destacados">
+            <h2 class="titulo-seccion">SERVICIOS DESTACADOS</h2>
+
+            <div class="carrusel-container">
+                <button class="btn-prev">&#10094;</button>
+
+                <div class="carrusel">
+                    <!-- Aquí se insertarán las tarjetas desde JS -->
+                </div>
+
+                <button class="btn-next">&#10095;</button>
+            </div>
+        </section>
+        <!-- Seccion 4: Preguntas frecuentes -->
+        <section class="preguntas-frecuentes">
+            <h2 class="titulo-seccion">PREGUNTAS FRECUENTES</h2>
+
+            <div class="contenedor-preguntas" id="contenedor-preguntas">
+                <!-- Las tarjetas se insertan con JS -->
+            </div>
+        </section>
+        <!-- Sección 5: Contenedor para contacto de empresa -->
+        <section class="contacto-full">
+            <div class="contacto-overlay">
+                <h2>¿Quieres ponerte en contacto con nosotros?</h2>
+                <p>Estamos aquí para ayudarte con cualquier duda o reserva.</p>
+                <a href="views/contacto.html" class="btn-contacto-full">Ir a contacto</a>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+            <div id="redes-sociales">
+                <p>Síguenos en nuestras redes:</p>
+                <a href="https://facebook.com" target="_blank"><img src="./assets/images/inconos-rrss/facebook-svgrepo-com.svg" alt="Facebook"></a> |
+                <a href="https://twitter.com" target="_blank"><img src="./assets/images/inconos-rrss/twitter-svgrepo-com.svg" alt="Twitter"></a> |
+                <a href="https://instagram.com" target="_blank"><img src="./assets/images/inconos-rrss/instagram-svgrepo-com.svg" alt="Instagram"></a>
+            </div>
+
+            <div id="direccion">
+                <p>Dirección: Poligo Industrial Tebongo, Cangas del Narcea, Asturias </p>
+            </div>
+
+            <div id="aviso-legal">
+                <p><a href="views/aviso-legal.html">Aviso legal</a></p>
+            </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

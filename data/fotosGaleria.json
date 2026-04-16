@@ -1,0 +1,240 @@
+{
+    "bungalow": {
+        "imagenes": [
+            {"url": "../assets/images/fotos_galeria/bungalo1.jpg",
+             "alt": "Imagen del interior del bungalow premium",
+            "width": "1200px",
+            "height": "700px"
+            },
+            {"url": "../assets/images/fotos_galeria/bungalo2.jpg",
+             "alt": "Imagen del interior del bungalow premium",
+             "width": "1200px",
+             "height": "700px"
+            },
+            {"url": "../assets/images/fotos_galeria/bungalo3.jpg",
+             "alt": "Imagen del interior del bungalow premium",
+             "width": "1200px",
+             "height": "700px"
+            },
+            {"url": "../assets/images/fotos_galeria/bungalo4.jpg",
+             "alt": "Imagen del interior del bungalow premium",
+             "width": "1200px",
+             "height": "700px"
+            }
+        ],
+        "texto": "Nuestro bungalow premium ofrece comodidad, privacidad y un entorno natural único. Equipado con cocina completa, baño privado, terraza exterior y capacidad para 4 personas.",
+        "caracteristicas": [
+            "4 plazas conducción",
+            "2 plazas noche",
+            "Baño con WC y ducha",
+            "Nevera",
+            "Calefacción a gas"
+        ]
+    },
+    "furgonetas": {
+        "furgoneta1": {
+            "imagenes": [
+                {"url": "../assets/images/fotos_galeria/furgoneta-imagenes.jpg",
+                 "alt": "Imagen de la furgoneta 1",
+                 "width": "713px",
+                 "height": "539px"
+                },
+                {"url": "../assets/images/fotos_galeria/furgoneta-imagenes-1.jpg",
+                 "alt": "Imagen de la furgoneta 1",
+                 "width": "572px",
+                 "height": "429px"
+                },
+                {"url": "../assets/images/fotos_galeria/furgoneta-imagenes-2.jpg",
+                 "alt": "Imagen de la furgoneta 1",
+                 "width": "572px",
+                 "height": "429px"
+                },
+                {"url": "../assets/images/fotos_galeria/furgoneta-imagenes-3.jpg",
+                 "alt": "Imagen de la furgoneta 1",
+                 "width": "572px",
+                 "height": "429px"
+                }
+            ],
+            "texto": "Autocaravana perfilada compacta Autocarvana ideal para parejas. En su interior cuenta con zona de salón con capacidad para cuatro personas aprovechando los asientos giratorios de cabina, cocina, fregadero y nevera. Baño con ducha integrada. Para el descanso cuenta con una amplia cama gemelas con capacidad para 2/3 personas. ",
+            "caracteristicas": [
+                "4 plazas conducción",
+                "2 plazas noche",
+                "Nevera",
+                "Calefacción a gasoil",
+                "Baño con ducha integrada"
+            ]
+        },
+        "furgoneta2": {
+            "imagenes": [
+                {"url": "../assets/images/fotos_galeria/furgoneta-imagenes-4.jpg",
+                 "alt": "Imagen de la furgoneta 2",
+                 "width": "572px",
+                 "height": "429px"
+                },
+                {"url": "../assets/images/fotos_galeria/furgoneta-imagenes-5.jpg",
+                 "alt": "Imagen de la furgoneta 2",
+                 "width": "572px",
+                 "height": "429px"
+                },
+                {"url": "../assets/images/fotos_galeria/furgoneta-imagenes-6.jpg",
+                 "alt": "Imagen de la furgoneta 2",
+                 "width": "572px",
+                 "height": "429px"
+                },
+                {"url": "../assets/images/fotos_galeria/furgoneta-imagenes-7.jpg",
+                 "alt": "Imagen de la furgoneta 2",
+                 "width": "572px",
+                 "height": "429px"
+                }
+            ],
+            "texto": "Camper 4x4 off road Este vehículo es una camper todoterreno 4x4 diseñada para aventuras allá donde otros no llegan. Está equipada con todas las comodidades necesarias para un viaje confortable, incluyendo una cocina completa, baño, y espacio para dormir. Además de sus 180CV y el cambio automático viene con todo tipo de sistemas de ayudar a la conducción. Su capacidad todoterreno permite explorar terrenos difíciles con facilidad, ideal para quienes buscan una experiencia de viaje más aventurera y autónoma.",
+            "caracteristicas": [
+                "2 plazas conducción",
+                "2 plazas noche",
+                "Baño con WC y ducha",
+                "Nevera",
+                "Calefacción a gasoil"
+            ]
+        },
+        "furgoneta3": {
+            "imagenes": [
+                {"url": "../assets/images/fotos_galeria/furgoneta-imagenes-8.jpg",
+                 "alt": "Imagen de la furgoneta 3",
+                 "width": "712px",
+                 "height": "539px"
+                },
+                {"url": "../assets/images/fotos_galeria/furgoneta-imagenes-9.jpg",
+                 "alt": "Imagen de la furgoneta 3",
+                 "width": "1017px",
+                 "height": "429px"
+                },
+                {"url": "../assets/images/fotos_galeria/furgoneta-imagenes-10.jpg",
+                 "alt": "Imagen de la furgoneta 3",
+                 "width": "572px",
+                 "height": "429px"
+                }
+            ],
+            "texto": "Camper especialmente diseñada para viajar dos personas. Vehículo construido sobre chasis Citroen de 140 Cv ideal para escapadas en pareja. Es sus 6 metros de largo este vehículo cuenta con todas las comodidades de un vehículo CAMPER: Salón- comedor con mesa extensible y capacidad para 4 personas aprovechando los asientos giratorios de la cabina, cocina con dos fuegos, amplio fregadero y frigorífico de doble apertura. Baño completo con ducha integrada. En la zona trasera cuenta con una amplia cama transversal para dos personas.",
+            "caracteristicas": [
+                "4 plazas conducción",
+                "2 plazas noche",
+                "Baño con WC y ducha",
+                "Nevera",
+                "Calefacción a gas"
+            ]
+        }
+    },
+    "serviciosDestacados":{
+        "piscina":{
+            "imagenes": [
+                {"url": "../assets/images/informacion/piscina2.jpg",
+                 "alt": "Imagen de la piscina",
+                 "width": "1920px",
+                 "height": "750px"
+                },
+                {"url": "../assets/images/informacion/piscina.jpg",
+                 "alt": "Imagen de la piscina",
+                 "width": "1660px",
+                 "height": "918px"
+                },
+                {"url": "../assets/images/informacion/piscina_infantil.jpg",
+                 "alt": "Imagen de la piscina infantil",
+                 "width": "1920px",
+                 "height": "1440px"
+                }
+            ],
+            "texto": "Contamos con tres piscinas al aire libre, una piscina con medidas olímpicas, tanto en largo como en profundidad, una piscina de tamaño mediano con piscina infantil incluida y un acuapark con toboganes para niños.",
+            "caracteristicas": [
+                "Piscina al aire libre",
+                "Área de juegos acuáticos para niños",
+                "Tumbonas y sombrillas",
+                "No incluido en tarifa regular, se puede contratar por separado"
+            ]
+        },"rutaSenderismo":{
+            "imagenes": [
+                {"url": "../assets/images/informacion/ruta_senderismo.jpg", 
+                 "alt": "Imagen de la ruta de senderismo",
+                 "width": "800px",
+                 "height": "560px"
+                },
+                {"url": "../assets/images/informacion/ruta_montaña.jpg", 
+                 "alt": "Imagen de la ruta de senderismo",
+                 "width": "1600px",
+                 "height": "1200px"
+                },
+                {"url": "../assets/images/informacion/ruta_xanas_asturias.jpg", 
+                 "alt": "Imagen de la ruta de senderismo",
+                 "width": "1200px",
+                 "height": "900px"
+                }
+            ],
+            "texto": "Contamos con guías expertos que ofrecen rutas de senderismo para todos los niveles, desde principiantes hasta avanzados. Las rutas incluyen puntos de descanso y miradores, así como información sobre la flora y fauna local. Este servicio no está incluido en la tarifa regular, pero se puede contratar por separado para aquellos que deseen explorar la naturaleza de manera guiada. También ofrecemos mapas y recomendaciones para senderismo autoguiado, permitiendo a los visitantes disfrutar de la belleza natural a su propio ritmo." ,
+            "caracteristicas": [
+                "Rutas de senderismo para todos los niveles",
+                "Puntos de descanso y miradores",
+                "Información sobre flora y fauna local",
+                "No incluido en tarifa regular, se puede contratar por separado"
+            ]
+        },"actividadesInfantiles":{
+            "imagenes": [
+                {"url": "../assets/images/informacion/actividad_niños.jpg", 
+                 "alt": "Imagen de las actividades para niños",
+                 "width": "1024px",
+                 "height": "596px"
+                },
+                {"url": "../assets/images/informacion/actividad_niños_2.jpg", 
+                 "alt": "Imagen de las actividades para niños",
+                 "width": "1300px",
+                 "height": "866px"
+                }
+            ],
+            "texto": "Acabamos de incluir un nuevo servicio de actividades infantiles para que los más pequeños puedan disfrutar de su estancia con nosotros. Contamos con un área de juegos al aire libre, actividades educativas y supervisión por personal capacitado para garantizar la seguridad y diversión de los niños." ,
+            "caracteristicas": [
+                "Área de juegos para niños",
+                "Actividades educativas",
+                "Supervisión por personal capacitado",
+                "No incluido en tarifa regular, se puede contratar por separado"
+            ]
+        },"restaurante":{
+          "imagenes": [
+                {"url": "../assets/images/informacion/restaurante.jpg", 
+                 "alt": "Imagen del restaurante",
+                 "width": "1400px",
+                 "height": "900px"
+                },
+                {"url": "../assets/images/informacion/restaurante_pizzeria.jpg", 
+                 "alt": "Imagen del restaurante",
+                 "width": "650px",
+                 "height": "400px"
+                }
+           ],
+            "texto": "Nuestro restaurante ofrece una experiencia culinaria excepcional con un menú variado y nutritivo que incluye opciones para todos los gustos. Contamos con un servicio de restaurante completo, un área de comedor cómoda y acogedora, y la opción de incluir el servicio en la tarifa regular al contratar alojamiento con bungalow. Para los huéspedes que se alojen en furgonetas, el servicio de restaurante se puede contratar por separado, brindando la flexibilidad de disfrutar de nuestras deliciosas comidas durante su estancia." ,
+            "caracteristicas": [
+                "Menú variado y nutritivo",
+                "Servicio de restaurante",
+                "Área de comedor cómoda",
+                "Incluido en tarifa regular al contratar alojamiento con bungalow, se puede contratar por separado para furgonetas"
+            ]
+        },"alquilerBicicletas":{   
+            "imagenes": [
+                {"url": "../assets/images/informacion/ebike_escarrilla_valletena.jpg", 
+                 "alt": "Imagen del servicio de alquiler de bicicletas",
+                 "width": "1000px",
+                 "height": "1000px"
+                },
+                {"url": "../assets/images/informacion/alquiler_bicicletas_2.jpg", 
+                 "alt": "Imagen del servicio de alquiler de bicicletas",
+                 "width": "1280px",
+                 "height": "720px"
+                }
+            ],
+            "texto": "Ofrecemos un servicio de alquiler de bicicletas eléctricas para que nuestros huéspedes puedan explorar los alrededores de manera ecológica y divertida. Contamos con una variedad de bicicletas eléctricas disponibles para alquilar, ideales para recorrer senderos, caminos rurales y descubrir la belleza natural de la zona. Este servicio no está incluido en la tarifa regular, pero se puede contratar por separado para aquellos que deseen disfrutar de una experiencia de ciclismo única durante su estancia." ,
+            "caracteristicas": [
+                "Bicicletas eléctricas",
+                "Rutas de ciclismo",
+                "Servicio de alquiler",
+                "No incluido en tarifa regular, se puede contratar por separado"
+            ]
+        }
+    }
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLAMPUR CAMPING</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="../assets/favicon/favicon-96x96.png" sizes="96x96" >
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon/favicon.svg" >
+    <link rel="shortcut icon" href="../assets/favicon/favicon.ico" >
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png" >
+    <meta name="apple-mobile-web-app-title" content="GC" >
+    <link rel="manifest" href="../assets/favicon/site.webmanifest" >
+</head>
+<body>
+    <header>
+        <h1 class="logo">
+            <a href="../index.html">
+                <img src="../assets/images/montana.png" alt="GC.COM - Camping de lujo">
+            </a>
+            <span class="texto seo" ><a href="../index.html">GLAMPUR CAMPING</a></span>
+        </h1>
+
+        <nav class="barNav">
+            <input type="checkbox" id="check-menu" class="check-menu">
+            <ul class="barNav-links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="#" class="enlaceActivo">Presupuesto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                
+            </ul>
+            <label for="check-menu" class="label-check">
+                <img src="../assets/menu-hamburguesa/menu-svgrepo-com.svg" alt="imagen menú hamburguesa" height="60" width="60">
+            </label>
+        </nav>
+    </header>
+    <main class="main-not-index">
+        <div class="contenedor">
+            <form id="form-presupuesto" class="formulario">
+
+                <!-- DATOS DE CONTACTO -->
+                <div class="contenedor-presupuesto">
+                    <h2>Datos de contacto</h2>
+
+                    <div class="bloque-presupuesto caja-presupuesto">
+
+                        <div class="grupo-form">
+                            <label><span>Nombre</span></label>
+                            <input type="text" id="nombre" maxlength="15" required>
+                            <span class="error" id="error-nombre"></span>
+                        </div>
+
+                        <div class="grupo-form">
+                            <label><span>Apellidos</span></label>
+                            <input type="text" id="apellidos" maxlength="40" required>
+                            <span class="error" id="error-apellidos"></span>
+                        </div>
+
+                        <div class="grupo-form">
+                            <label><span >Teléfono</span></label>
+                            <input type="text" id="telefono" maxlength="9" required>
+                            <span class="error" id="error-telefono"></span>
+                        </div>
+
+                        <div class="grupo-form">
+                            <label><span>Email</span></label>
+                            <input type="email" id="email" required>
+                            <span class="error" id="error-email"></span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- PRESUPUESTO -->
+                <div class="contenedor-presupuesto">
+                    <h2>Presupuesto</h2>
+
+                    <div class="bloque-presupuesto caja-presupuesto">
+
+                        <!-- PRODUCTO -->
+                        <div class="grupo-form">
+                            <label><span>Producto</span></label>
+                            <select id="producto">
+                                <option value="0">Selecciona un producto</option>
+                                <option value="1200">Bungalow Premium - 1200€</option>
+                                <option value="900">Furgoneta Challenger 2023 - 900€</option>
+                                <option value="1500">Camper 4x4 Off Road - 1500€</option>
+                                <option value="2000">Furgoneta PÖSSL Camper - 2000€</option>
+                            </select>
+                        </div>
+
+                        <!-- PLAZO -->
+                        <div class="grupo-form">
+                            <label><span>Plazo (meses)</span></label>
+                            <input type="number" id="plazo" min="1" max="24" value="1">
+                            <small>Descuento automático según plazo / max: 24 meses</small>
+                        </div>
+
+                        <!-- EXTRAS -->
+                        <div class="grupo-form">
+                            <label><span>Extras</span></label>
+
+                            <div id="extras-bungalow" class="grupo-form extras-grupo">
+                                <label><input type="checkbox" class="extra extra-bungalow" value="100"> Acceso a piscina (+100€)</label>
+                                <label><input type="checkbox" class="extra extra-bungalow" value="50"> Actividades niños (+50€)</label>
+                                <label><input type="checkbox" class="extra extra-bungalow" value="150"> Jacuzzi (+150€)</label>
+                            </div>
+                            <div id="extras-furgonetas" class="grupo-form extras-grupo">
+                                <label><input type="checkbox" class="extra extra-furgoneta" value="120"> Seguro a todo riesgo (+120€)</label>
+                                <label><input type="checkbox" class="extra extra-furgoneta" value="50"> Kit de cocina (+50€)</label>
+                                <label><input type="checkbox" class="extra extra-furgoneta" value="50"> Kit de ducha (+50€)</label>
+                                <label><input type="checkbox" class="extra extra-furgoneta" value="80"> Acceso a parkings limitados (+80€)</label>
+                            </div>
+
+                        </div>
+
+                        <!-- PRESUPUESTO FINAL -->
+                        <div class="grupo-form">
+                            <label><span>Presupuesto final</span></label>
+                            <input type="text" id="resultado" readonly>
+                        </div>
+
+                        <!-- CONDICIONES -->
+                        <div class="grupo-form">
+                            <label><input type="checkbox" id="condiciones"> Acepto las condiciones de privacidad</label>
+                        </div>
+
+                        <!-- BOTONES -->
+                        <div class="grupo-form botones">
+                            <button id="enviar" type="submit">Enviar</button>
+                            <button id="reset" type="reset">Resetear</button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+        
+    </main>
+    <footer>
+            <div id="redes-sociales">
+                <p>Síguenos en nuestras redes:</p>
+                <a href="https://facebook.com" target="_blank"><img src="../assets/images/inconos-rrss/facebook-svgrepo-com.svg" alt="Facebook"></a> |
+                <a href="https://twitter.com" target="_blank"><img src="../assets/images/inconos-rrss/twitter-svgrepo-com.svg" alt="Twitter"></a> |
+                <a href="https://instagram.com" target="_blank"><img src="../assets/images/inconos-rrss/instagram-svgrepo-com.svg" alt="Instagram"></a>
+            </div>
+
+            <div id="direccion">
+                <p>Dirección: Poligo Industrial Tebongo, Cangas del Narcea, Asturias </p>
+            </div>
+
+            <div id="aviso-legal">
+                <p><a href="aviso-legal.html">Aviso legal</a></p>
+            </div>
+    </footer>
+    <script src="../js/formulario.js"></script>
+</body>
+</html>

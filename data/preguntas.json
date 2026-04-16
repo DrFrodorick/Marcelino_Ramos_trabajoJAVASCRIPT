@@ -1,0 +1,36 @@
+{
+  "preguntas": [
+    {
+      "pregunta": "¿Se permiten perros?",
+      "respuesta": "Sí, cobramos un suplemento y deben ir siempre atados.",
+      "imagen": "assets/images/tarjetas-preguntas/perro.jpg",
+      "alt": "Imagen de un perro en el campo",
+      "width": "3653px",
+      "height": "1994px"
+    },
+    {
+      "pregunta": "¿Se permite fumar?",
+      "respuesta": "No, no permitimos fumar ni en los bungalows ni en las zonas comunes.",
+      "imagen": "assets/images/tarjetas-preguntas/fumar.jpg",
+      "alt": "Imagen del humo de un cigarrillo",
+      "width": "700px",
+      "height": "525px"
+    },
+    {
+      "pregunta": "¿Se puede hacer barbacoa?",
+      "respuesta": "No, no se permite realizar barbacoas en los bungalows ni en las zonas comunes.",
+      "imagen": "assets/images/tarjetas-preguntas/barbacoa.jpg",
+      "alt": "Imagen de una barbacoa",
+      "width": "1200px",
+      "height": "397px"
+    },
+    {
+      "pregunta": "¿Tienen cargadores eléctricos para coches?",
+      "respuesta": "Sí, contamos con instalaciones de carga eléctrica para coches.",
+      "imagen": "assets/images/tarjetas-preguntas/cargador.jpg",
+      "alt": "Imagen de un cargador eléctrico",
+      "width": "2810px",
+      "height": "2107px"
+    }
+  ]
+}

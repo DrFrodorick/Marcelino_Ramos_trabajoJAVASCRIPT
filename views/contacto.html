@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLAMPUR CAMPING</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="../assets/favicon/favicon-96x96.png" sizes="96x96" >
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon/favicon.svg" >
+    <link rel="shortcut icon" href="../assets/favicon/favicon.ico" >
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png" >
+    <meta name="apple-mobile-web-app-title" content="GC" >
+    <link rel="manifest" href="../assets/favicon/site.webmanifest" >
+</head>
+<body>
+    <header>
+        <h1 class="logo">
+            <a href="../index.html">
+                <img src="../assets/images/montana.png" alt="GC.COM - Camping de lujo">
+            </a>
+            <span class="texto seo" ><a href="../index.html">GLAMPUR CAMPING</a></span>
+        </h1>
+
+        <nav class="barNav">
+            <input type="checkbox" id="check-menu" class="check-menu">
+            <ul class="barNav-links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="presupuesto.html" >Presupuesto</a></li>
+                <li><a href="#" class="enlaceActivo">Contacto</a></li>
+                
+            </ul>
+            <label for="check-menu" class="label-check">
+                <img src="../assets/menu-hamburguesa/menu-svgrepo-com.svg" alt="imagen menú hamburguesa" height="60" width="60">
+            </label>
+        </nav>
+    </header>
+    <main class="main-not-index">
+        <div class="contenedor">
+            <!-- DATOS DE CONTACTO -->
+            <div class="contenedor-galeria">
+
+                <div class="contenedor-caja vertical">
+
+                    <!-- COLUMNA IZQUIERDA (TARJETA DE INFORMACIÓN) -->
+                    <div class="columna-izquierda">
+
+                        <div class="grupo-form">
+                            <h2>Datos de la empresa</h2>
+
+                            <address>
+                                <span>GLAMPUR CAMPING</span><br>
+                                Polígono Industrial Tebongo<br>
+                                33800 Tebongo<br>
+                                Cangas del Narcea, Asturias
+                            </address>
+
+                            <p>
+                                <span>Teléfono:</span> <a href="tel:600123456">600 123 456</a><br>
+                                <span>Email:</span> <a href="mailto:info@glampurcamping.com">info@glampurcamping.com</a>
+                            </p>
+
+                            <h3>Horario</h3>
+                            <p>
+                                Lunes a Viernes: 09:00 – 18:00<br>
+                                Sábado: 09:00 – 14:00<br>
+                                Domingo: Cerrado
+                            </p>
+
+                            <h3>Cómo llegar</h3>
+                            <ul>
+                                <li>Carretera Soto del Barco–Cornellana AS‑15</li>
+                            </ul>
+
+                            <p>
+                                <a href="aviso-legal.html" class="enlaceActivo">Política de privacidad</a>
+                            </p>
+                        </div>
+
+                        <div class="grupo-form">
+                            <h3>Calcular ruta</h3>
+                            <button id="btn-ruta">Calcular ruta desde mi ubicación</button>
+                        </div>
+
+                    </div>
+
+                    <!-- COLUMNA DERECHA (MAPA) -->
+                    <div class="columna-derecha">
+                        <div id="mapa"></div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+            <div id="redes-sociales">
+                <p>Síguenos en nuestras redes:</p>
+                <a href="https://facebook.com" target="_blank"><img src="../assets/images/inconos-rrss/facebook-svgrepo-com.svg" alt="Facebook"></a> |
+                <a href="https://twitter.com" target="_blank"><img src="../assets/images/inconos-rrss/twitter-svgrepo-com.svg" alt="Twitter"></a> |
+                <a href="https://instagram.com" target="_blank"><img src="../assets/images/inconos-rrss/instagram-svgrepo-com.svg" alt="Instagram"></a>
+            </div>
+
+            <div id="direccion">
+                <p>Dirección: Poligo Industrial Tebongo, Cangas del Narcea, Asturias </p>
+            </div>
+
+            <div id="aviso-legal">
+                <p><a href="aviso-legal.html">Aviso legal</a></p>
+            </div>
+    </footer>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" >
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css" >
+    <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+
+    <script src="../js/contacto.js"></script>
+
+</body>
+</html>
