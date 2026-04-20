@@ -5,40 +5,40 @@
       "imagen": "assets/images/informacion/piscina.jpg",
       "url": "views/galeria.html#piscina",
       "alt": "Imagen de piscina al aire libre",
-      "width": "1660px",
-      "height": "918px"
+      "width": "1660",
+      "height": "918"
     },
     {
       "titulo": "Rutas de senderismo",
       "imagen": "assets/images/informacion/ruta_senderismo.jpg",
       "url": "views/galeria.html#rutas-senderismo",
       "alt": "Imagen de ruta de senderismo por montaña",
-      "width": "800px",
-      "height": "560px"
+      "width": "800",
+      "height": "560"
     },
     {
       "titulo": "Actividades para niños",
       "imagen": "assets/images/informacion/actividad_niños.jpg",
       "url": "views/galeria.html#actividades-niños",
       "alt": "Imagen de actividades para niños",
-      "width": "1024px",
-      "height": "596px"
+      "width": "1024",
+      "height": "596"
     },
     {
       "titulo": "Restaurante ",
       "imagen": "assets/images/informacion/restaurante.jpg",
       "url": "views/galeria.html#restaurante",
       "alt": "Imagen interior de restaurante",
-      "width": "1400px",
-      "height": "900px"
+      "width": "1400",
+      "height": "900"
     },
     {
       "titulo": "Alquiler de bicicletas",
       "imagen": "assets/images/informacion/ebike_escarrilla_valletena.jpg",
       "url": "views/galeria.html#alquiler-bicicletas",
       "alt": "Imagen de bicicletas apiladas para alquilar",
-      "width": "1000px",
-      "height": "1000px"
+      "width": "1000",
+      "height": "1000"
     }
   ]
 }

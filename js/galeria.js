@@ -35,10 +35,6 @@ fetch("../data/fotosGaleria.json")
                 const imagen = document.createElement("img");
                  imagen.src = img.url;
                  imagen.alt = img.alt || "";
-                    
-                // Quitar "px" para evitar problemas
-                 imagen.width = parseInt(img.width);
-                 imagen.height = parseInt(img.height);
 
                  imagen.loading = "lazy"; // mejora rendimiento
 

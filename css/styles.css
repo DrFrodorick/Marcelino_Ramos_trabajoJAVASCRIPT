@@ -27,17 +27,26 @@
   --header-height: 72px;           /* referencia para cálculos si hace falta */
   --arrow-size: 48px;              /* tamaño de flechas del carrusel */
 }
-html, body {
-  margin: 0;
-  padding: 0;
+html {
+  height: 100%; 
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
   width: 100%;
-  height: 100%;
   background-color: var(--color-fondo);
-  min-height: 100vh;
   font-family: var(--fuente-principal);
   font-size: 16px;
   overflow-x: hidden;
 }
+
+main {
+  flex: 1;
+  display: block;
+}
+
 .contenedor {
     width: 90%;
     max-width: 1400px;
@@ -184,6 +193,8 @@ header {
   height: 100vh;
   margin-top: 0;
   padding: 0;
+  position: relative;
+  overflow: hidden;
 }
 
 .tarjeta-bienvenida{
@@ -197,6 +208,7 @@ header {
   color: var(--color-fondo);
   font-size: 40px;
   gap: 20px;
+  z-index: 2;
 }
 
 .tarjeta-bienvenida h2{
@@ -209,10 +221,16 @@ header {
 
 #hero {   
   height: 120vh;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  transition: background-image 1s ease-out;
+  position: relative;
+}
+#hero-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1; /
 }
 
 .division{
@@ -346,10 +364,8 @@ header {
 }
 
 .tarjeta-servicio {
-  width: 580px;      
-  height: 500px;     
-  background-size: cover;
-  background-position: center;
+  width: 580px;
+  height: 500px;
   border-radius: 12px;
   cursor: pointer;
   display: flex;
@@ -357,6 +373,17 @@ header {
   justify-content: center;
   padding: 20px;
   transition: transform 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+.tarjeta-servicio img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
 }
 
 .tarjeta-servicio:hover {
@@ -364,6 +391,8 @@ header {
 }
 
 .tarjeta-titulo {
+  position: relative;
+  z-index: 2;
   background: rgba(0,0,0,0.5);
   padding: 8px 12px;
   border-radius: 8px;
@@ -426,11 +455,11 @@ header {
   transform: rotateY(180deg);
 }
 
-/* Cara A */
+/* CARAS (A y B) */
 .cara {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+  position: absolute;        
+  width: 100%;              
+  height: 100%;             
   backface-visibility: hidden;
   border-radius: 16px;
   overflow: hidden;
@@ -438,19 +467,38 @@ header {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  text-align: center;  
+  text-align: center;
 }
 
+/* CARA A (imagen + texto) */
 .caraA {
-  background-size: cover;
-  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
   color: white;
   font-size: 32px;
   font-weight: 600;
   text-shadow: 0 2px 6px rgba(0,0,0,0.6);
 }
 
-/* Cara B */
+/* Imagen de la cara A */
+.caraA img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* Texto encima de la imagen */
+.caraA span {
+  position: relative;
+  z-index: 2;
+}
+
+/* CARA B */
 .caraB {
   background: var(--color-fondo);
   color: var(--color-boton);
@@ -459,6 +507,7 @@ header {
   padding: 30px;
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
 
 .contacto-full {
   width: 100%;

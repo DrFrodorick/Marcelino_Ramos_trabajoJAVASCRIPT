@@ -2,33 +2,33 @@
   "carrusel1": [
     {"url": "assets/images/div-int-1/bungalo2.jpg",
      "alt": "Imagen del bungalow 2",
-     "width": "1200px",
-     "height": "700px"},
+     "width": "1200",
+     "height": "700"},
     {"url": "assets/images/div-int-1/bungalo3.jpg",
      "alt": "Imagen del bungalow 3",
-     "width": "1200px",
-     "height": "700px"},
+     "width": "1200",
+     "height": "700"},
     {"url": "assets/images/div-int-1/bungalo4.jpg",
      "alt": "Imagen del bungalow 4",
-     "width": "1200px",
-     "height": "700px"},
+     "width": "1200",
+     "height": "700"},
     {"url": "assets/images/div-int-1/bungalo1.jpg",
      "alt": "Imagen del bungalow 1",
-     "width": "1200px",
-     "height": "700px"}
+     "width": "1200",
+     "height": "700"}
   ],
   "carrusel2": [
     {"url": "assets/images/div-int-1/interior_furgoneta.png",
      "alt": "Imagen del interior de la furgoneta camper",
-     "width": "1640px",
-     "height": "924px"},
+     "width": "1640",
+     "height": "924"},
     {"url": "assets/images/div-int-1/interior2furgoneta.png",
      "alt": "Imagen del interior de la furgoneta camper",
-     "width": "1640px",
-     "height": "924px"},
+     "width": "1640",
+     "height": "924"},
     {"url": "assets/images/div-int-1/furgoneta.png",
      "alt": "Imagen exterior de furgoneta camper",
-     "width": "1000px",
-     "height": "526px"}
+     "width": "1000",
+     "height": "526"}
   ]
 }

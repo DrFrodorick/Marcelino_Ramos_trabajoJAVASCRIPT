@@ -4,23 +4,33 @@ fetch("data/imagesCarousel.json")
         const imagenes = data.imagenes;
         let index = 0;
 
-        const section = document.getElementById("hero");
+        const img = document.getElementById("hero-img");
 
         // Primera imagen
-        section.style.backgroundImage = `url(${imagenes[index].url})`;
+        img.src = imagenes[index].url;
+        img.alt = imagenes[index].alt;
+        img.width = imagenes[index].width;
+        img.height = imagenes[index].height;
 
         // Cambiar cada 5 segundos
         setInterval(() => {
             index = (index + 1) % imagenes.length;
-            section.style.backgroundImage = `url(${imagenes[index].url})`;
+
+            img.src = imagenes[index].url;
+            img.alt = imagenes[index].alt;
+            img.width = imagenes[index].width;
+            img.height = imagenes[index].height;
+
         }, 5000);
     })
     .catch(err => console.error("Error cargando JSON:", err));
+
 
 fetch("data/imagenesDivisionInterna.json")
     .then(res => res.json())
     .then(data => {
         const carruseles = document.querySelectorAll(".div-int-1");
+
         carruseles.forEach(div => {
 
             const id = div.dataset.carousel;
@@ -31,8 +41,8 @@ fetch("data/imagenesDivisionInterna.json")
             const imagenInicial = {
                 url: imagen.src,
                 alt: imagen.alt || "",
-                width: imagen.width,
-                height: imagen.height
+                width: imagen.getAttribute("width"),
+                height: imagen.getAttribute("height")
             };
 
             let index = 0;
@@ -46,8 +56,8 @@ fetch("data/imagenesDivisionInterna.json")
 
                 imagen.src = imgData.url;
                 imagen.alt = imgData.alt || "";
-                imagen.width = parseInt(imgData.width);
-                imagen.height = parseInt(imgData.height);
+                imagen.width = imgData.width;
+                imagen.height = imgData.height;
             }
 
             // Iniciar carrusel al pasar el ratón
@@ -82,6 +92,7 @@ document.getElementById("div-int-2").addEventListener("click", () => {
 });
 
 
+
 /*                                                 */
 fetch("data/informacion.json")
     .then(res => res.json())
@@ -95,19 +106,27 @@ fetch("data/informacion.json")
 
             // Crear enlace
             const enlace = document.createElement("a");
-            enlace.href = servicio.url || "#";  // por si no hay URL
+            enlace.href = servicio.url || "#";
             enlace.classList.add("tarjeta-enlace");
 
             // Crear tarjeta
             const tarjeta = document.createElement("div");
             tarjeta.classList.add("tarjeta-servicio");
-            tarjeta.style.backgroundImage = `url(${servicio.imagen})`;
+
+            // Crear imagen REAL con width y height
+            const img = document.createElement("img");
+            img.src = servicio.imagen;
+            img.alt = servicio.alt || "";
+            img.width = servicio.width;
+            img.height = servicio.height;
 
             // Título dentro de la tarjeta
             const titulo = document.createElement("span");
             titulo.classList.add("tarjeta-titulo");
             titulo.textContent = servicio.titulo;
 
+            // Montaje
+            tarjeta.appendChild(img);
             tarjeta.appendChild(titulo);
             enlace.appendChild(tarjeta);
             carrusel.appendChild(enlace);
@@ -138,7 +157,7 @@ fetch("data/informacion.json")
             if (desplazamiento - paso > max) {
                 desplazamiento -= paso;
             } else {
-                desplazamiento = max; // Ajuste perfecto al final
+                desplazamiento = max;
             }
 
             carrusel.style.transform = `translateX(${desplazamiento}px)`;
@@ -151,7 +170,7 @@ fetch("data/informacion.json")
             if (desplazamiento + paso < 0) {
                 desplazamiento += paso;
             } else {
-                desplazamiento = 0; // Vuelve al inicio exacto
+                desplazamiento = 0;
             }
 
             carrusel.style.transform = `translateX(${desplazamiento}px)`;
@@ -159,8 +178,6 @@ fetch("data/informacion.json")
 
     })
     .catch(err => console.error("Error cargando JSON:", err));
-
-
 
 fetch("data/preguntas.json")
     .then(res => res.json())
@@ -176,7 +193,11 @@ fetch("data/preguntas.json")
             tarjeta.innerHTML = `
                 <div class="tarjeta-inner">
 
-                    <div class="cara caraA" style="background-image: url('${item.imagen}')">
+                    <div class="cara caraA">
+                        <img src="${item.imagen}" 
+                             alt="${item.alt}" 
+                             width="${item.width}" 
+                             height="${item.height}">
                         <span>${item.pregunta}</span>
                     </div>
 
@@ -192,6 +213,7 @@ fetch("data/preguntas.json")
 
     })
     .catch(err => console.error("Error cargando JSON:", err));
+
 
    
 

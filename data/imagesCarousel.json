@@ -2,23 +2,23 @@
   "imagenes":[
     {"url": "assets/images/fotos-carrusel/bosque.jpg",
     "alt": "Imagen de bosque verde con árboles altos",
-    "width": "1660px",
-    "height": "918px"
+    "width": "1660",
+    "height": "918"
     },
     {"url": "assets/images/fotos-carrusel/lagos_covadonga.jpg",
     "alt": "Imagen de lagos de Covadonga con montañas a lo lejos",
-    "width": "1660px",
-    "height": "918px"
+    "width": "1660",
+    "height": "918"
     },
     {"url": "assets/images/fotos-carrusel/oso.jpg",
     "alt": "Imagen de oso polar en su hábitat natural",
-    "width": "1660px",
-    "height": "918px"
+    "width": "1660",
+    "height": "918"
     },
     {"url": "assets/images/fotos-carrusel/picos.jpg",
     "alt": "Imagen de río con aguas cristalinas",
-    "width": "728px",
-    "height": "410px"
+    "width": "728",
+    "height": "410"
     }
 
   ]
