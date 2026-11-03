@@ -18,15 +18,15 @@
      "height": "700"}
   ],
   "carrusel2": [
-    {"url": "assets/images/div-int-1/interior_furgoneta.png",
+    {"url": "assets/images/div-int-1/interior_furgoneta.jpg",
      "alt": "Imagen del interior de la furgoneta camper",
      "width": "1640",
      "height": "924"},
-    {"url": "assets/images/div-int-1/interior2furgoneta.png",
+    {"url": "assets/images/div-int-1/interior2furgoneta.jpg",
      "alt": "Imagen del interior de la furgoneta camper",
      "width": "1640",
      "height": "924"},
-    {"url": "assets/images/div-int-1/furgoneta.png",
+    {"url": "assets/images/div-int-1/furgoneta.jpg",
      "alt": "Imagen exterior de furgoneta camper",
      "width": "1000",
      "height": "526"}
